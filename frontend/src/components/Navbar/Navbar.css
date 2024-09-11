@@ -1,0 +1,33 @@
+nav{
+   width: 100%;
+   /*border: 1px solid green;*/
+   box-shadow: 1px 1px 11px 1px gray;
+}
+nav .nav-cont{
+    max-width: 95%;
+   /* border: 1px solid purple;*/
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem 0;
+}
+
+nav .nav-cont .logo-wrapper{
+    /*border: 1px solid blue;*/
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+nav .nav-cont .logo-wrapper img{
+    width: 3vw;
+    object-fit: cover;
+}
+
+nav .nav-cont .logo-wrapper h1{
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(77, 72, 72);
+}

@@ -1,0 +1,102 @@
+#cred {
+  width: 100%;
+  height: 90vh;
+  /* padding: 3rem 0; */
+}
+#cred .cred-cont {
+  /* border: 2px solid red; */
+  max-width: 95%;
+  margin: 0 auto;
+  /* height: 100%; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cred .cred-cont .login-cont-wrapper {
+  /* border: 2px solid blue; */
+  display: flex;
+  gap: 30px;
+}
+#cred .cred-cont .login-cont-wrapper form {
+  /* border: 2px solid green; */
+  width: 300px;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 1px 11px 1px grey;
+  border-radius: 1rem;
+}
+#cred .cred-cont .login-cont-wrapper form.user-form:hover {
+  box-shadow: 1px 1px 11px 1px rgb(128, 219, 241);
+}
+#cred .cred-cont .login-cont-wrapper form.admin-form:hover {
+  box-shadow: 1px 1px 11px 1px rgb(255, 89, 89);
+}
+#cred .cred-cont .login-cont-wrapper form .icon {
+  font-size: 3rem;
+  color: rgb(94, 94, 94);
+  text-align: center;
+}
+#cred .cred-cont .login-cont-wrapper form h1 {
+  font-size: 1.6rem;
+  color: rgb(94, 94, 94);
+  margin-top: 1rem;
+  font-weight: 500;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper {
+  margin-top: 3rem;
+  /* width: 10; */
+  width: 100%;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  gap: 20px;
+  margin: 0 auto;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont .input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid grey;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont .input-wrapper input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0.8rem 0.4rem 1rem 0.4rem;
+  font-size: 1.4rem;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont .input-wrapper .input-icon {
+  color: rgb(141, 140, 140);
+  font-size: 1.6rem;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont button {
+  outline: none;
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 2.5rem;
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont button:hover {
+  background-color: rgb(122, 204, 0);
+  color: white;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont h1 {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  text-align: center;
+  gap: 2px;
+}
+#cred .cred-cont .login-cont-wrapper form .form-wrapper .input-wrapper-cont h1 a {
+  font-size: 1rem;
+}/*# sourceMappingURL=Cred.css.map */
